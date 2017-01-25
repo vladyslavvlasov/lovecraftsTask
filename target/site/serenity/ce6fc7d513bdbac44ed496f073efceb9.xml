@@ -1,0 +1,38 @@
+<acceptance-test-run title="Customer has a last added product to basket in the minibasket view" name="Customer has a last added product to basket in the minibasket view" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="34683" timestamp="2017-01-25T14:46:32.417+02:00" session-id="46689fed-e4ff-49b9-b253-75608ea3089f">
+  <user-story id="minibasket" name="MiniBasket" path="src/test/resources/features/MiniBasket.feature"/>
+  <tags>
+    <tag name="MiniBasket" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7114">
+    <screenshots>
+      <screenshot image="8e42332e1a72d5b6e002b2f59a88d3f9.png"/>
+      <screenshot image="c18c0ab1b240c40d11c43dc96a439a38.png"/>
+    </screenshots>
+    <description>Given I am on &quot;/paintbox-yarns-simply-aran&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8679">
+    <screenshots>
+      <screenshot image="99fb0db50b55f0550d1383eafeb1a58b.png"/>
+    </screenshots>
+    <description>When I add 2 &quot;Sky Blue&quot; yarns to my basket</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5284">
+    <screenshots>
+      <screenshot image="4ca4e7723d961f6db2942edadf39b6ca.png"/>
+    </screenshots>
+    <description>Then I can see &quot;Paintbox Yarns Simply Aran - Sky Blue&quot; yarn in the minibasket</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5638">
+    <screenshots>
+      <screenshot image="7028d9ac0fc21c9fdbf65ebb459ac7a8.png"/>
+    </screenshots>
+    <description>When I use minibasket to follow to the basket page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1948">
+    <screenshots>
+      <screenshot image="a35279ff74723783f23074216458299e.png"/>
+      <screenshot image="80d27a88be121738f2a56eb75963a72c.png"/>
+    </screenshots>
+    <description>Then I can see &quot;Paintbox Yarns Simply Aran - Sky Blue&quot; on the basket page</description>
+  </test-step>
+</acceptance-test-run>
